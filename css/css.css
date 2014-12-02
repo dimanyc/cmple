@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500);
+
+html,body{font-family: 'Roboto', sans-serif;color:#000000;line-height:24px;font-size:16px;width:100%;}
+body{background-image:url(../img/bg-test.png);background-position:center -28px;background-repeat:no-repeat;}
+a {color:#2bc8ef;}
+/*Type*/
+h1,h2,h3{margin:0;margin-bottom:37px;}
+
+h1{font-size:36px;font-weight:500;}
+h2{font-size:36px;font-weight:300;letter-spacing:-0.05em;}
+h3{font-size:36px;font-weight:100;}
+h4{font-size:16px;font-weight:700;text-transform:uppercase;}
+h5{font-size:18px;font-weight:700;}
+
+.caption{font-size:12px;font-weight:500;}
+
+/*Layout*/
+.container{width:62.438em;margin:auto;margin-top:1.813em;padding:0;padding-top:0;}
+.container{width:1002px;margin:auto;margin-top:1.813em;padding-left:21px;padding-right:21px;padding-top:0;}
+
+/*-header*/
+header{height:150px;width:100%;}
+
+/*--black tab*/
+header .tab	{height:2.167em;width:100%;background-color:#1c1c1c;color:#ffffff;position:absolute;left:0;top:0px;border-bottom:3px #2e3750 solid;}
+header .tab .container{width:999px;position:relative;margin:auto;margin-top:0;margin-bottom:0;color:#aeaeae;display:table;table-layout:fixed;vertical-align:middle;}
+header .tab .container.inner{padding-left:22px;padding-right:22px;}
+header .tab .container ul{width:242px;display:table;table-layout:fixed;height:1.625em;float:left;}
+header .tab .container ul li {display: table-cell;height:26px;}
+header .tab .container ul li a {display: block;text-align:center;color:#aeaeae;text-decoration:none;height:26px;border-right:1px #4f4f4f solid;}
+header .tab .container ul li.active a{background-color:#2e3750;color:#ffffff;border-right:0;}
+header .tab .container ul li:hover a{color:#ffffff;}
+header .tab .container span{width:559px;display:block;float:left;text-align:center;}
+header .tab .container span strong{color:#ffffff;margin-left:.5em;}
+header .tab .container span  i.glyphicon {color:#2bc8ef;margin-left:2.125em;}
+header .tab .container ol{display:table-cell;width:13.583em;height:2.167em;vertical-align: middle;float:right;background-color:#343434;border-bottom:3px #f2650b solid;padding-left:0.750em;padding-right:0.750em;margin-left: -5px;}
+header .tab .container ol li a {color:#ffffff;text-transform:uppercase;font-weight:400;text-decoration:none;}
+header .tab .container ol li a .glyphicon {float:right;color:#f2650b;line-height:2.9em;font-size:.7em;}
+/*--header body*/
+header .body {display:table;table-layout:fixed;vertical-align:middle;height:86px;padding:0;margin:0;}
+header .body h1.cmple-logo {margin-bottom:0;display:table-cell;padding-top:5px;padding-right:12px;}
+header .body h1.cmple-logo a{text-indent:-9999px;background-image:url(../img/cmple-logo.png);background-repeat:no-repeat;height:1.583em;display:table-cell;line-height:49px;}
+header .body form{display:table-cell;vertical-align: middle;}
+header .body form input{height:2.000em;border:1px #d5d5d5 solid;border-radius:4px;}
+header .body .dn_input-group-wrapper{display:table-cell;box-sizing:border-box;vertical-align:middle;width:27.6em;padding-top: 0.3em;}
+header .body .dn_input-group-wrapper button{width: 8.28em;}
+header .body .dn_input-group-wrapper i.glyphicon{color:#f2650b;font-size:.7em;}
+header .body .dn_input-group-wrapper .glyphicon{color:#000000;}
+header .body .dn_cart {vertical-align:middle;display:table;table-layout:fixed;padding-left:35px;padding-top:1.3em;}
+div.dn_cart > *{float:left;}
+header .body .dn_cart .dn_ccounter{height:25px;border-radius:4px;border:2px purple solid;margin-left:1em;padding:.3em;padding-bottom:0;position: relative;}
+header .body .dn_cart .dn_ccounter::before{content: "\00a0";background-color:#ffffff;height: 16px;
+position: absolute;top: 11px;transform:rotate( 29deg ) skew( -35deg );-moz-transform:rotate( 29deg ) skew( -35deg );-ms-transform:rotate( 29deg ) skew( -35deg );-o-transform:rotate( 29deg ) skew( -35deg );-webkit-transform: rotate( 29deg ) skew( -35deg );width:20px;}
+header .body .dn_cart section{display:table;table-layout:fixed;height:18px;margin-left:.7em;margin-top:.18em;}
+header .body .dn_cart .glyphicon{color:#f2650b;font-size:22px;}
+.bubble {position:relative;height: 27px;padding: 0px;border:2px #ccc solid;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin-left:1em;text-align:center;padding-left:5px!important;padding-right:5px!important;}
+.bubble:after {content: "";position: absolute;top: 8px;left: -6px;border-style: solid;border-width: 4px 4px 4px 0;border-color: transparent #ccc;display: block;width: 0;z-index: 1;}
+header .body .dn_cart a.button{color:black;border:2px red solid;border-radius:4px;height:2.3em;line-height:2.0em;font-weight:500;margin-left:.6em;padding-left:.6em;margin-right:.6em;padding-right:.6em;display:table-cell;}

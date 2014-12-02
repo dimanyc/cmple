@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,700);
+h1 - 500, 36px 
+h2 - 300, fs 36px, letter spacing -10px 
+h3 - 100, fs 36px 
+h4 - 700, fs 16px, 
+h5 - 700, fs 18px 
+body -regular, fs 16px
+
+Thin 100  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Thin 100 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Light 300  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Light 300 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Normal 400  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Normal 400 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Medium 500  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Medium 500 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Bold 700  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Bold 700 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Ultra-Bold 900  Grumpy wizards make toxic brew for the evil Queen and Jack.
+Ultra-Bold 900 Italic  Grumpy wizards make toxic brew for the evil Queen and Jack.
+
